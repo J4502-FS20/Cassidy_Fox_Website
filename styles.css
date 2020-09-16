@@ -5,12 +5,15 @@ body {
   font-family: serif;
 }
 h1,h2 {
-text-decoration-color: : #40989B
+color: : #40989B;
 font-family:'Shadows Into Light', cursive;
+}
+p {
+  font-family: font-family: Open Sans Condensed, sans-serif;
 }
 ul {
 list-style: none;
 }
 img {
-  border: 2px dotted lightblue 
+  border: 2px, dotted, #40989B;
 }
