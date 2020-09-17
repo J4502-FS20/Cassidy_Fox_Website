@@ -1,6 +1,6 @@
 body {
 
-  background-color: #D2FAC1;
+  background-color: #E7E0D1;
   text-align: center;
   font-family: serif;
 }
@@ -13,17 +13,18 @@ margin: auto;
 main p {
 margin: auto;
 display: inline-block;
-border: 5px dotted #083F28;
+border: 5px dotted #D9A23F;
+padding: 10px;
 max-width: 400px;
 }
 h1{
 font-size: 50px;
-text-decoration: underline dotted #083F28;
+text-decoration: underline dotted #D9A23F;
 }
 h2 {
   font-size: 30px;
-  border: 5px dotted #083F28;
-  padding: 5px;
+  border: 5px dotted #D9A23F;
+  padding: 10px;
   display: inline-block;
 }
 h1,h2 {
@@ -49,6 +50,6 @@ color: black;
 a:hover {
 font-weight: bold;
 background-color: #06118C;
-color: white;
+color: #D9A23F;
 opacity: 0.7;
 }
