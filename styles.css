@@ -27,10 +27,11 @@ img {
 a {
 font-family: font-family: 'Crimson Text', serif;
 font-size: 20px;
+color: black; 
 }
-a: hover {
+a:hover {
 font-weight: bold;
 background-color: #06118C;
 color: white;
-opacity: 0.7; 
+opacity: 0.7;
 }
