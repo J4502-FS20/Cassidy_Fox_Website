@@ -5,7 +5,10 @@ body {
   font-family: serif;
 }
 h1{
-font-size: 55px
+font-size: 50px
+}
+h2 {
+  font-size: 30px
 }
 h1,h2 {
 color: #06118C;
@@ -21,6 +24,6 @@ img {
   border: 2px, dotted, #0F3835;
 }
 a {
-font-family: Open Sans Condensed, sans-serif;
+font-family: font-family: 'Crimson Text', serif;
 font-weight: bold;
 }
