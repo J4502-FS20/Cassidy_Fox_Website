@@ -22,12 +22,12 @@ ul {
 list-style: none;
 }
 img {
-  border: 2px, dotted, #0F3835;
+border: none 
 }
 a {
-font-family: font-family: 'Crimson Text', serif;
+font-family: 'Crimson Text', serif;
 font-size: 20px;
-color: black; 
+color: black;
 }
 a:hover {
 font-weight: bold;
