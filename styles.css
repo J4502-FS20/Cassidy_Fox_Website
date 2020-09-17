@@ -4,8 +4,11 @@ body {
   text-align: center;
   font-family: serif;
 }
+h1{
+font-size: 55px
+}
 h1,h2 {
-color: #02786E;
+color: #06118C;
 font-family:'Shadows Into Light', cursive;
 }
 p {
@@ -19,4 +22,5 @@ img {
 }
 a {
 font-family: Open Sans Condensed, sans-serif;
+font-weight: bold;
 }
