@@ -1,7 +1,7 @@
-//Updated CSS file_cf 
+//Updated CSS file_cf
 body {
   background-color: #E7E0D1;
-  text-align: center;
+  text-align:center;
   font-family: serif;
 }
 main {
@@ -20,20 +20,22 @@ max-width: 400px;
 h1{
 font-size: 50px;
 text-decoration: underline dotted #D9A23F;
+text-align: center;
 }
 h2 {
   font-size: 30px;
   border: 5px dotted #D9A23F;
-  padding: 10px;
-  display: inline-block;
+  width: 400px;
+  text-align: center;
 }
 h1,h2 {
 color: #06118C;
-font-family:‘Shadows Into Light’, cursive;
+font-family: 'Shadows Into Light', cursive;
 }
 p {
   font-family: Open Sans Condensed, sans-serif;
   font-size: 20px;
+  text-align: center;
 }
 ul {
 list-style: none;
