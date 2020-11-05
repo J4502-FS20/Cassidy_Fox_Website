@@ -7,7 +7,7 @@ body {
 main {
 display: flex;
 width: 100%;
-max-width: 800px;
+max-width: 750px;
 margin: auto;
 }
 main p {
@@ -37,6 +37,9 @@ p {
 }
 ul {
 list-style: none;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
 }
 img {
 border: none;
@@ -52,4 +55,10 @@ font-weight: bold;
 background-color: #06118C;
 color: #D9A23F;
 opacity: 0.7;
+}
+@media only screen and (max-width: 650px) {
+ul {
+flex-direction: column;
+justify-content: space-around;
+}
 }
