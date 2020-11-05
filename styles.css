@@ -1,5 +1,4 @@
 body {
-
   background-color: #E7E0D1;
   text-align: center;
   font-family: serif;
@@ -7,7 +6,7 @@ body {
 main {
 display: flex;
 width: 100%;
-max-width: 800px;
+max-width: 750px;
 margin: auto;
 }
 main p {
@@ -29,7 +28,7 @@ h2 {
 }
 h1,h2 {
 color: #06118C;
-font-family:'Shadows Into Light', cursive;
+font-family:‘Shadows Into Light’, cursive;
 }
 p {
   font-family: Open Sans Condensed, sans-serif;
@@ -37,13 +36,16 @@ p {
 }
 ul {
 list-style: none;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
 }
 img {
 border: none;
 width: 300px;
 }
 a {
-font-family: 'Crimson Text', serif;
+font-family: ‘Crimson Text’, serif;
 font-size: 20px;
 color: black;
 }
@@ -52,4 +54,10 @@ font-weight: bold;
 background-color: #06118C;
 color: #D9A23F;
 opacity: 0.7;
+}
+@media only screen and (max-width: 650px) {
+ul {
+flex-direction: column;
+justify-content: space-around;
+}
 }
